@@ -147,7 +147,7 @@ final class ViewController: UIViewController {
     
     private func resetMenuConstraints(status isOpened: Bool, menu: MenuStyle) {
         isOpened ? openMenu(menu: menu) : closeMenu(menu: menu)
-        view.layoutSubviews()
+        view.layoutIfNeeded()
     }
     
 // MARK: - Helpers

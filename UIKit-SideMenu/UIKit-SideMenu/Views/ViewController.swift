@@ -17,11 +17,11 @@ final class ViewController: UIViewController {
     
     // Left Menu Constraints
     private lazy var leftMenuLeadingAnchor = leftMenuView.leadingAnchor.constraint(equalTo: view.leadingAnchor) // closed
-    private lazy var leftMenuTrailingAnchor = leftMenuView.trailingAnchor.constraint(equalTo:  view.leadingAnchor) // opened
+    private lazy var leftMenuTrailingAnchor = leftMenuView.trailingAnchor.constraint(equalTo: view.leadingAnchor) // opened
     
     // Right Menu Constraints
     private lazy var rightMenuLeadingAnchor = rightMenuView.leadingAnchor.constraint(equalTo: view.trailingAnchor) // closed
-    private lazy var rightMenuTrailingAnchor = rightMenuView.trailingAnchor.constraint(equalTo:  view.trailingAnchor) // opened
+    private lazy var rightMenuTrailingAnchor = rightMenuView.trailingAnchor.constraint(equalTo: view.trailingAnchor) // opened
     
     // Bottom Menu Constraints
     private lazy var bottomMenuTopAnchor = bottomMenuView.topAnchor.constraint(equalTo: view.bottomAnchor) // closed
